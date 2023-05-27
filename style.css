@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+   
+body{
+    padding-top: 72px;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-item a{
+    padding-top: 15px;
+    font-size: 16px;
+    color:#1A1A1A;
+    margin-inline: 15px;
+}
+.nav-item a:hover{
+    padding-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1.6px;
+}
+.poster h1{
+    font-size: 90px;
+    font-weight:bolder;
+    color: rgb(255, 255, 255);
+}
+.poster h3{
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+}
+.poster button{
+    color:#4c1f59;
+    font-size: 16px;
+    border-radius: 8px;
+    padding-inline: 40px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.mybg{
+    background-image: url(assets/bg1.png);
+    background-size: cover;
+    background-blend-mode: multiply;
+
+}
+.poster2{
+    background-image: url(assets/bg2.webp);
+    background-size: cover;
+    background-color: #d8d8d8;
+    background-blend-mode: multiply;
+
+}
+
+.poster3{
+
+    background-image: url(assets/bg3.webp);
+    background-size: cover;
+}
+
+.container2{
+    align-items: center;
+    justify-content: center; 
+}
+.bestseller{
+    margin: 40px;
+}
+.bestseller h1{
+    font-size: 45px;
+    font-weight: bolder;
+    color: #1A1A1A;
+}
+.btnp{
+    background-color: #4c1f59;
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 100;
+    border-radius: 8px;
+    padding-inline: 40px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.btnp:hover{
+
+    background-color: #4c1f59;
+    color: #ffff;
+}
+.product .card{
+    cursor: pointer;
+}
+.rg .card{
+    cursor: default;
+}
+.rg .card img{
+    cursor: zoom-in;
+}
+
+.product .card h4{
+    font-size: 28px;
+}
+.product .card p{
+    font-size: 18px;
+    color:#5d575e
+}
+.product .card span{
+    text-decoration: line-through;
+    padding-right: 7px;
+    font-weight: lighter;
+    color: #1a1a1a;
+    opacity: .4;
+}
+.f_img img{
+    padding: 6px;
+    width: 407px;
+}
+.b_img .card:hover .card-img-top{
+    filter: brightness(75%);
+    transition: all 0.4s ease-in-out;
+}
+
+input[type=email], select {
+    width: 380px;
+    padding: 10px 56px 10px 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ffff;
+    border-radius: 1px;
+    box-sizing: border-box;
+    margin-top: 2px;
+  }
+  
+.fa{
+  background: #f1f1f1;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 25px;
+  padding: 16px;
+}
+footer{
+    background-color: #f1f1f1;
+    margin-top: 100px;
+    padding: 70px 220px 70px 90px;
+}
+footer li{
+    font-size: 18px;
+    list-style-type:none;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
